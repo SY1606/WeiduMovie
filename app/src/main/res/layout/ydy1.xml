@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:gravity="center_horizontal"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_205"
+        android:src="@drawable/ydy1"
+        android:layout_marginTop="@dimen/dp_150"
+        android:id="@+id/ydy1_id"
+        />
+    <TextView
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:layout_marginTop="@dimen/dp_60"
+        android:layout_below="@+id/ydy1_id"
+        android:text="一场电影"/>
+    <TextView
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:layout_marginTop="@dimen/dp_80"
+        android:layout_below="@+id/ydy1_id"
+        android:text="净化你的灵魂"/>
+
+</RelativeLayout>

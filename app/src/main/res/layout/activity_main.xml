@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.activity.MainActivity">
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:src="@drawable/rectangle_26"/>
+
+    <TextView
+        android:id="@+id/wdyy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="维度影院"
+        android:textColor="#fff"
+        android:layout_alignBottom="@+id/sy"
+        android:layout_marginBottom="@dimen/dp_50"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="@dimen/dp_120"
+        android:text="一场不一样的视觉盛宴"
+        android:textColor="#fff"
+        android:id="@+id/sy"
+        android:textSize="14sp" />
+</RelativeLayout>

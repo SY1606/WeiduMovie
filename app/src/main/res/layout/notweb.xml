@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:gravity="center_horizontal"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_marginTop="@dimen/dp_211"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_205"
+        android:id="@+id/notweb"
+        android:src="@drawable/notweb"/>
+
+    <TextView
+        android:layout_below="@+id/notweb"
+        android:layout_marginTop="@dimen/dp_60"
+        android:textColor="#bcbcbc"
+        android:textSize="14sp"
+        android:gravity="center_horizontal"
+        android:text="糟糕，网络不给力啊"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

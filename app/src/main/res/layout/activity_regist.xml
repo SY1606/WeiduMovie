@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.activity.RegistActivity"
+    android:background="@drawable/bitmap">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="@dimen/dp_30"
+            android:layout_height="@dimen/dp_30"
+            android:src="@drawable/register_icon_name_default_xxhdpi" />
+
+        <EditText
+            android:id="@+id/name_id"
+            android:layout_width="@dimen/dp_280"
+            android:layout_height="wrap_content"
+            android:hint="昵称"
+            android:textColor="#fff"
+            android:textColorHint="#fff" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="@dimen/dp_30"
+            android:layout_height="@dimen/dp_30"
+            android:src="@drawable/register_icon_sex_default_xxhdpi" />
+
+        <EditText
+            android:id="@+id/sex_id"
+            android:layout_width="@dimen/dp_280"
+            android:layout_height="wrap_content"
+            android:hint="性别"
+            android:textColor="#fff"
+            android:textColorHint="#fff" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="@dimen/dp_30"
+            android:layout_height="@dimen/dp_30"
+            android:src="@drawable/register_icon_date_default_xxhdpi" />
+
+        <EditText
+            android:id="@+id/birthday_id"
+            android:layout_width="@dimen/dp_280"
+            android:layout_height="wrap_content"
+            android:hint="出生日期"
+            android:textColor="#fff"
+            android:textColorHint="#fff" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="@dimen/dp_30"
+            android:layout_height="@dimen/dp_30"
+            android:src="@drawable/register_icon_phone_default_xxhdpi" />
+
+        <EditText
+            android:id="@+id/phone_id"
+            android:layout_width="@dimen/dp_280"
+            android:layout_height="wrap_content"
+            android:hint="手机号"
+            android:textColor="#fff"
+            android:textColorHint="#fff" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="@dimen/dp_30"
+            android:layout_height="@dimen/dp_30"
+            android:src="@drawable/register_icon_mail_default_xxhdpi" />
+
+        <EditText
+            android:id="@+id/emil_id"
+            android:layout_width="@dimen/dp_280"
+            android:layout_height="wrap_content"
+            android:hint="邮箱"
+            android:textColor="#fff"
+            android:textColorHint="#fff" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="@dimen/dp_30"
+            android:layout_height="@dimen/dp_30"
+            android:src="@drawable/register_icon_lock_default_xxhdpi" />
+
+        <EditText
+            android:id="@+id/pwd_id"
+            android:layout_width="@dimen/dp_280"
+            android:layout_height="wrap_content"
+            android:hint="密码"
+            android:textColor="#fff"
+            android:textColorHint="#fff" />
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/regist_id"
+        android:layout_width="@dimen/dp_280"
+        android:layout_height="@dimen/dp_40"
+        android:background="#f66b1d"
+        android:text="注册" />
+
+</LinearLayout>
